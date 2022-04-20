@@ -85,25 +85,26 @@
 
 	.font3 {
 		top: 72%;
-		left: 36%;
+		left: 30%;
 		text-align: center;
 		font-family: canto, serif;
-		font-weight: 350;
+		font-weight: 200;
 		font-style: italic;
 		line-height: 0.73;
 		letter-spacing: -0.02em;
 		color: red;
 		font-size: 7.3em;
+		white-space : nowrap;
 		}
 
 	.font4 {
 		font-family: noto-sans-display, sans-serif;
-		font-weight: 500;
+		font-weight: 400;
 		font-style: normal;
 		color: white;
 		font-size: 6em;
 		margin-top: 0.5%;
-		margin-left: 32%;
+		margin-left: 23%;
 		white-space : nowrap;
 	}
 
@@ -133,8 +134,8 @@
 			100% {opacity: 1;}
 		}
 .h5 {
-	height: 1000px;
-	background-color: green;
+	height: 600px;
+	background-color: white;
 	}
 
 	.h5_flex {
@@ -163,6 +164,28 @@
 		text-align: center;
 	}
 
+	.h6 {
+	height: 600px;
+	background-color: indianred;
+	}
+
+	.h6_flex {
+		width: 100%;
+		display: flex; 
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.h6_flex > div {
+		background-color: #f1f1f1; 
+		width: calc(100% / 4);
+		text-align: center; 
+		line-height: 75px; 
+		font-size: 30px;
+		margin: 10px;
+	}
+
 .footer {
 	font-weight: 400; font-size: 300px;}
  
@@ -175,10 +198,11 @@
 	 }
 
 	.blank_white {
-		height: 2em;
-		width: 100%;
-		background-color: white;
+		height: 100px;
+		width: auto;
+		background-color: red;
 	}
+
 
 </style>
 
@@ -202,8 +226,6 @@
 	<div class="h2">
 		<a> Have you ever </a> <br>
 		<a> experienced this before</a>
-		<img src= "image/trashcan.png"
-		style= "display: block; margin: 0px auto;">
 
 	</div>
 
@@ -258,6 +280,32 @@ Reason for writing a greeting in an e-mail
 </div>
 
 <div class= "blank_white">
+</div>
+
+<div>
+	<div class= "h6 font5">
+		<div class= "h6_flex">
+
+			<div>
+			<img src="image/web_4_3.jpg" 
+			title="step1"
+			style="width: 80%;">
+			</div>
+
+			<div>
+			<img src="image/web_4_2.jpg" 
+			title="step2"
+			style="width: 80%;">
+			</div>
+
+			<div>
+			<img src="image/web_4_2.jpg" 
+			title="step2"
+			style="width: 80%;">
+			</div>
+
+	</div>
+	Reason for writing a greeting in an e-mail
 </div>
 
 </body>
